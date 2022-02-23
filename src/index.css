@@ -46,6 +46,12 @@ a {
   padding: 1rem;
 }
 
+.photos-list-container {
+  display: flex;
+  align-items: center;
+  background-color: lightgrey;
+}
+
 .photos-list-banner {
   background-color: lightgrey;
   padding: 1rem;
@@ -54,10 +60,15 @@ a {
 .photo-list-item {
   background-color: lightgrey;
   margin: 5px;
-  max-width: 400px;
+  max-width: 600px;
+  max-height: 600px;
 }
 
 .photo-list-item img {
   width: 100%;
   height: auto;
+}
+
+.highlight-image img {
+  max-width: 800px;
 }

@@ -5,7 +5,7 @@ import PhotosList from '../components/PhotosList';
 const PhotosListPage = () => (
     <>
     <h1 className="photos-list-banner">Photos</h1>
-    <PhotosList photos={photoContent} />
+    <div className="photos-list-container"><PhotosList photos={photoContent} /></div>
     </> 
 );
 

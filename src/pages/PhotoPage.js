@@ -17,8 +17,9 @@ const PhotoPage = ({ match }) => {
     {photo.content.map((paragraph, key) => (
         <p key={key}>{paragraph}</p>
     ))}
+    <div className="highlight-image">{photo.image}</div>
     <h3>Other Photos:</h3>
-    <PhotosList photos={otherPhotos} />
+    <div className="photos-list-container"><PhotosList photos={otherPhotos} /></div>
     </> 
     );
 }
