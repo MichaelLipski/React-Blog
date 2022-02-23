@@ -26,3 +26,38 @@ a {
   text-decoration: none;
 }
 
+.article-list-item {
+  background-color: lightgrey;
+  margin: 5px;
+}
+
+.welcome-banner {
+  background-color: lightgrey;
+  padding: 1rem;
+}
+
+.about-banner {
+  background-color: lightgrey;
+  padding: 1rem;
+}
+
+.articles-list-banner {
+  background-color: lightgrey;
+  padding: 1rem;
+}
+
+.photos-list-banner {
+  background-color: lightgrey;
+  padding: 1rem;
+}
+
+.photo-list-item {
+  background-color: lightgrey;
+  margin: 5px;
+  max-width: 400px;
+}
+
+.photo-list-item img {
+  width: 100%;
+  height: auto;
+}

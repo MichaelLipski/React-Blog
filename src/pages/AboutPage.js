@@ -2,12 +2,12 @@ import React from 'react';
 
 const AboutPage = () => (
     <>
-    <h1>About Me</h1>
+    <h1 className="about-banner">About Me</h1>
     <p>
-        A bunch of text.
+        Thanks for stopping by and getting to know a little bit more about me!
     </p>
     <p>
-        A bunch of text in a second paragraph.
+        I'll be adding some relevant bio stuff here in the near future.
     </p>
     </> 
 );
